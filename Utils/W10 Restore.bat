@@ -1,1 +1,3 @@
-sfc /SCANNOW && chkdsk /R && DISM /Online /Cleanup-image /Restorehealth
+sfc /SCANNOW
+chkdsk /R
+DISM /Online /Cleanup-image /Restorehealth
