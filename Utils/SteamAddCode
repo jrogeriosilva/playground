@@ -1,0 +1,1 @@
+javascript:%20chavesteam%20=%20prompt("Insira%20o%20c%C3%B3digo%20Steam");%20if%20(chavesteam%20!==%20null)%20location.href%20=%20'https://store.steampowered.com/account/registerkey?key='%20+%20chavesteam
