@@ -1,0 +1,1 @@
+SHA1=$(echo -n "corsa" | openssl sha1); FIRST5=$(echo ${SENHA^^} | (cut -d ' ' -f2 | cut -c-5)); LAST=$(echo ${SENHA^^} | cut -d ' ' -f2 | cut -c6-) ;curl https://api.pwnedpasswords.com/range/${FIRST5} | grep ${LAST}
